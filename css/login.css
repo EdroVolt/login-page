@@ -24,8 +24,7 @@ form label {
     color: #303956;
 }
 
-#email,
-#password {
+.form-control {
     display: block;
     width: 100%;
     height: calc(1.5em + 1rem + 2px);
@@ -41,6 +40,7 @@ form label {
     box-shadow: inset 0 1px 1px rgba(39, 44, 51, .075);
     font-weight: 400;
 }
+
 
 #login {
     color: #fff;

@@ -1,101 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/login.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/login.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav id="default-navbar" class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <a class="navbar-brand" href="#">EdroVolt</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">GET STARTED</button>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">section1</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Courses
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">English</a>
+              <a class="dropdown-item" href="#">Programming</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">More...</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+              >About</a
+            >
+          </li>
+        </ul>
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+          GET STARTED
+        </button>
+      </div>
     </nav>
 
     <!-- start sign in form -->
     <div class="container py-5 px-sm-5">
-        <form>
-            <div class="form-group">
-                <label for="email">EMAIL:</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                    placeholder="Your email address ...">
-            </div>
-            <div class="form-group">
-                <label for="password">PASSWORD:</label>
-                <input type="password" class="form-control" id="password" placeholder="Your first and last name ...">
-                <p id="emailHelp" class="text-right">
-                    <a href="" class="form-text text-muted text-decoration-none">
-                        Forgot your password?
-                    </a>
-                </p>
-            </div>
-            <button type="submit" id="login" class="btn d-block mx-auto">LOGIN</button>
-        </form>
+      <form>
+        <div class="form-group">
+          <label for="email">EMAIL:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            aria-describedby="emailHelp"
+            placeholder="Your email address ..."
+          />
+        </div>
+        <div class="form-group">
+          <label for="password">PASSWORD:</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Enter valid password ..."
+          />
+          <p id="emailHelp" class="text-right">
+            <a href="" class="form-text text-muted text-decoration-none">
+              Forgot your password?
+            </a>
+          </p>
+        </div>
+        <button type="submit" id="login" class="btn d-block mx-auto">
+          LOGIN
+        </button>
+      </form>
     </div>
     <!-- End sign in form -->
 
     <!-- start separator -->
     <div class="page-separator justify-content-center m-0">
-        <div class="page-separator__text"> or sign-in with </div>
+      <div class="page-separator__text">or sign-in with</div>
     </div>
     <!-- End separator -->
 
     <!-- Start third party sign in -->
-    <div class="pt-4 pb-5 text-center">
-        <div class="container d-flex d-sm-block flex-column justify-content-between">
-            <a href="#" class="btn btn-secondary btn-block-xs mb-1">Facebook</a>
-            <a href="#" class="btn btn-secondary btn-block-xs mb-1">Twitter</a>
-            <a href="#" class="btn btn-secondary btn-block-xs mb-1">Google+</a>
-        </div>
+    <div
+      class="git remote add origin https://github.com/EdroVolt/login-page.gitpt-4 pb-5 text-center"
+    >
+      <div
+        class="container d-flex d-sm-block flex-column justify-content-between"
+      >
+        <a
+          href="https://www.facebook.com/AhmedEdreeso/"
+          class="btn btn-secondary btn-block-xs mb-1"
+          >Facebook</a
+        >
+        <a
+          href="https://twitter.com/EdroVolt"
+          class="btn btn-secondary btn-block-xs mb-1"
+          >Twitter</a
+        >
+        <a
+          href="https://www.linkedin.com/in/edrovolt/"
+          class="btn btn-secondary btn-block-xs mb-1"
+          >LinkedIn</a
+        >
+      </div>
     </div>
     <!-- End third party sign in -->
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="js/login.js"></script>
-</body>
-
+  </body>
 </html>
